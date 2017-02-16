@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'pokemon';
+  src: url('./images/pokemon.ttf');
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  background: linear-gradient(270deg, #404040, #212121);
+}
+
+.header-title {
+  color: white;
+  font-size: 25px;
+  font-family: 'pokemon';
+  margin-left: 20px;
+  margin-top: 21px;
+}
+
+a {
+  font-size: 40px;
+}
+
+i {
+  color: white;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+canvas {
+  background-color: gray;
+}

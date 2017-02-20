@@ -44,16 +44,21 @@ canvas {
   background-color: gray;
 }
 
-.search-box {
-	display: block;
+#search-box {
 	position: absolute;
 	top: 80px;
 	right: 20px;
 }
 
-.search-box-input {
-	width: 400px;
+#search-box-input {
+	width: 350px;
 	height: 50px;
 	font-family: 'pokemon';
 	font-size: 25px;
+	border-width: thick;
+	padding-left: 20px;
+}
+
+input:focus {
+	outline: none;
 }

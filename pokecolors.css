@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: 'pokemon';
-	src: url('./images/pokemon.ttf') format('truetype');
+	src: url('./font/pokemon.ttf') format('truetype');
 	font-weight: normal;
   font-style: normal;
 }

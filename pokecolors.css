@@ -43,3 +43,17 @@ i:hover {
 canvas {
   background-color: gray;
 }
+
+.search-box {
+	display: block;
+	position: absolute;
+	top: 80px;
+	right: 20px;
+}
+
+.search-box-input {
+	width: 400px;
+	height: 50px;
+	font-family: 'pokemon';
+	font-size: 25px;
+}

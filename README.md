@@ -1,5 +1,7 @@
 # PokeColors
 
+Live: [PokeColors](www.raymondlee.io/PokeColors)
+
 ![view](./pc.png)
 
 PokeColors is built on HTML Canvas using JavaScript and jQuery. It provides users with hex-codes of 151

@@ -51,14 +51,32 @@ canvas {
 }
 
 #search-box-input {
-	height: 50px;
+	width: 350px;
+	height: 10px;
 	font-family: 'pokemon';
 	font-size: 25px;
 	border-width: thick;
-	padding-left: 20px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	resize: none;
+	overflow: hidden;
 }
 
-input:focus {
+::-webkit-input-placeholder {
+  line-height: 0.75em;
+}
+::-moz-placeholder {
+  line-height: 0.75em;
+}
+:-ms-input-placeholder {
+  line-height: 0.75em;
+}
+:-moz-placeholder {
+  line-height: 0.75em;
+}
+
+textarea:focus {
 	outline: none;
 }
 
